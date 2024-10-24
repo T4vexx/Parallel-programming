@@ -1,4 +1,4 @@
-// Otávio Augusto Teixeira
+// Otávio Teixeira e Luan Batista
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,36 +24,37 @@ double f(double x, double y)
 int main(int argc, char *argv[])
 {
   // Recebo o número de threads para ser usado e o número de intervalos
-  int num_threads, num_intervalos_x_y;
-  if (argc < 3)
+  int num_threads, num_intervalos_x, num_intervalos_y;
+  if (argc < 4)
   {
-    fprintf(stderr, "Uso correto: ./trabalho2 <num_threads> <num_intervals_x_y>\nExiting...\n");
+    fprintf(stderr, "Uso correto: ./trabalho2 <num_threads> <num_intervals_x> <num_intervals_y>\nExiting...\n");
     exit(1);
   }
 
   num_threads = strtol(argv[1], NULL, 10);
-  num_intervalos_x_y = strtol(argv[2], NULL, 10);
+  num_intervalos_x = strtol(argv[2], NULL, 10);
+  num_intervalos_y = strtol(argv[3], NULL, 10);
 
-  const double delta_x = (B_X - A_X) / num_intervalos_x_y;
-  const double delta_y = (B_Y - A_Y) / num_intervalos_x_y;
+  const double delta_x = (B_X - A_X) / num_intervalos_x;
+  const double delta_y = (B_Y - A_Y) / num_intervalos_y;
   double integral = 0.0;
 
 // Laço que utiliza o método do trapézio para fazer as aproximações
-#pragma omp parallel for num_threads(num_threads) reduction(+ : integral)
-  for (int i = 0; i <= num_intervalos_x_y; i++)
+#pragma omp parallel for collapse(2) num_threads(num_threads) schedule(dynamic) reduction(+ : integral)
+  for (int i = 0; i <= num_intervalos_x; i++)
   {
-    for (int j = 0; j <= num_intervalos_x_y; j++)
+    for (int j = 0; j <= num_intervalos_y; j++)
     {
       double x_i = A_X + i * delta_x;
       double y_j = A_Y + j * delta_y;
 
       // Calculo dos pesos de canto e borda
       double weight = 1.0;
-      if ((i == 0 || i == num_intervalos_x_y) && (j == 0 || j == num_intervalos_x_y))
+      if ((i == 0 || i == num_intervalos_x) && (j == 0 || j == num_intervalos_y))
       {
         weight = 0.25; // Canto
       }
-      else if (i == 0 || i == num_intervalos_x_y || j == 0 || j == num_intervalos_x_y)
+      else if (i == 0 || i == num_intervalos_x || j == 0 || j == num_intervalos_y)
       {
         weight = 0.5; // Borda
       }

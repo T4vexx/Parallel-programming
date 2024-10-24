@@ -1,0 +1,289 @@
+Benchmark Results
+
+
+Threads: 1, x: 1000, y: 1000
+real 0m0.136s
+real 0m0.192s
+real 0m0.254s
+real 0m0.147s
+real 0m0.198s
+
+
+Threads: 1, x: 1000, y: 10000
+real 0m0.919s
+real 0m0.877s
+real 0m0.840s
+real 0m0.881s
+real 0m0.814s
+
+
+Threads: 1, x: 1000, y: 100000
+real 0m7.591s
+real 0m8.007s
+real 0m7.680s
+real 0m8.328s
+real 0m8.032s
+
+
+Threads: 1, x: 10000, y: 1000
+real 0m0.925s
+real 0m0.860s
+real 0m0.878s
+real 0m0.825s
+real 0m0.756s
+
+
+Threads: 1, x: 10000, y: 10000
+real 0m7.634s
+real 0m7.612s
+real 0m7.199s
+real 0m7.202s
+real 0m7.173s
+
+
+Threads: 1, x: 10000, y: 100000
+real 1m13.374s
+real 1m11.739s
+real 1m14.049s
+real 1m12.413s
+real 1m12.957s
+
+
+Threads: 1, x: 100000, y: 1000
+real 0m7.329s
+real 0m7.305s
+real 0m7.382s
+real 0m7.544s
+real 0m7.949s
+
+
+Threads: 1, x: 100000, y: 10000
+real 1m13.979s
+real 1m13.910s
+real 1m12.893s
+real 1m15.324s
+real 1m14.324s
+
+
+Threads: 1, x: 100000, y: 100000
+real 1m43.406s
+real 1m43.112s
+real 1m43.771s
+real 1m43.849s
+real 1m44.906s
+
+
+Threads: 2, x: 1000, y: 1000
+real 0m0.216s
+real 0m0.167s
+real 0m0.122s
+real 0m0.121s
+real 0m0.181s
+
+
+Threads: 2, x: 1000, y: 10000
+real 0m0.498s
+real 0m0.574s
+real 0m0.553s
+real 0m0.511s
+real 0m0.602s
+
+
+Threads: 2, x: 1000, y: 100000
+real 0m4.959s
+real 0m4.924s
+real 0m4.973s
+real 0m4.761s
+real 0m4.934s
+
+
+Threads: 2, x: 10000, y: 1000
+real 0m0.569s
+real 0m0.603s
+real 0m0.606s
+real 0m0.601s
+real 0m0.604s
+
+
+Threads: 2, x: 10000, y: 10000
+real 0m4.884s
+real 0m4.912s
+real 0m4.949s
+real 0m4.885s
+real 0m4.778s
+
+
+Threads: 2, x: 10000, y: 100000
+real 0m51.821s
+real 0m48.278s
+real 0m49.336s
+real 0m50.663s
+real 0m48.185s
+
+
+Threads: 2, x: 100000, y: 1000
+real 0m5.517s
+real 0m5.440s
+real 0m5.510s
+real 0m5.443s
+real 0m5.501s
+
+
+Threads: 2, x: 100000, y: 10000
+real 0m50.027s
+real 0m48.735s
+real 0m51.686s
+real 0m47.857s
+real 0m51.786s
+
+
+Threads: 2, x: 100000, y: 100000
+real 1m8.273s
+real 1m12.000s
+real 1m8.118s
+real 1m10.931s
+real 1m9.874s
+
+
+Threads: 4, x: 1000, y: 1000
+real 0m0.109s
+real 0m0.126s
+real 0m0.155s
+real 0m0.196s
+real 0m0.176s
+
+
+Threads: 4, x: 1000, y: 10000
+real 0m0.498s
+real 0m0.406s
+real 0m0.486s
+real 0m0.399s
+real 0m0.430s
+
+
+Threads: 4, x: 1000, y: 100000
+real 0m3.613s
+real 0m3.772s
+real 0m3.634s
+real 0m3.764s
+real 0m3.926s
+
+
+Threads: 4, x: 10000, y: 1000
+real 0m0.493s
+real 0m0.514s
+real 0m0.470s
+real 0m0.479s
+real 0m0.480s
+
+
+Threads: 4, x: 10000, y: 10000
+real 0m3.530s
+real 0m3.546s
+real 0m3.467s
+real 0m3.510s
+real 0m3.488s
+
+
+Threads: 4, x: 10000, y: 100000
+real 0m33.159s
+real 0m35.306s
+real 0m36.153s
+real 0m33.875s
+real 0m33.048s
+
+
+Threads: 4, x: 100000, y: 1000
+real 0m3.998s
+real 0m3.724s
+real 0m3.722s
+real 0m3.610s
+real 0m3.684s
+
+
+Threads: 4, x: 100000, y: 10000
+real 0m35.815s
+real 0m33.515s
+real 0m34.915s
+real 0m38.509s
+real 0m35.873s
+
+
+Threads: 4, x: 100000, y: 100000
+real 0m48.868s
+real 0m51.981s
+real 0m47.858s
+real 0m52.118s
+real 0m48.378s
+
+
+Threads: 8, x: 1000, y: 1000
+real 0m0.101s
+real 0m0.073s
+real 0m0.161s
+real 0m0.066s
+real 0m0.068s
+
+
+Threads: 8, x: 1000, y: 10000
+real 0m0.441s
+real 0m0.388s
+real 0m0.435s
+real 0m0.387s
+real 0m0.437s
+
+
+Threads: 8, x: 1000, y: 100000
+real 0m3.338s
+real 0m3.276s
+real 0m3.419s
+real 0m3.258s
+real 0m3.465s
+
+
+Threads: 8, x: 10000, y: 1000
+real 0m0.396s
+real 0m0.532s
+real 0m0.380s
+real 0m0.430s
+real 0m0.435s
+
+
+Threads: 8, x: 10000, y: 10000
+real 0m3.379s
+real 0m3.816s
+real 0m3.629s
+real 0m3.649s
+real 0m3.642s
+
+
+Threads: 8, x: 10000, y: 100000
+real 0m36.161s
+real 0m36.728s
+real 0m32.237s
+real 0m32.245s
+real 0m32.484s
+
+
+Threads: 8, x: 100000, y: 1000
+real 0m3.552s
+real 0m3.568s
+real 0m3.767s
+real 0m3.880s
+real 0m3.802s
+
+
+Threads: 8, x: 100000, y: 10000
+real 0m34.815s
+real 0m35.965s
+real 0m32.818s
+real 0m33.476s
+real 0m33.600s
+
+
+Threads: 8, x: 100000, y: 100000
+real 0m50.193s
+real 0m48.659s
+real 0m45.849s
+real 0m50.181s
+real 0m48.877s
