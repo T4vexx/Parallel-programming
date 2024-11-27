@@ -1,0 +1,253 @@
+Benchmark Results
+
+\Cores: 1, x: 1000, y: 1000
+real 0m0.126s
+real 0m0.109s
+real 0m0.121s
+real 0m0.117s
+real 0m0.112s
+
+\Cores: 1, x: 1000, y: 10000
+real 0m0.449s
+real 0m0.445s
+real 0m0.442s
+real 0m0.442s
+real 0m0.447s
+
+\Cores: 1, x: 1000, y: 100000
+real 0m3.846s
+real 0m3.942s
+real 0m3.802s
+real 0m3.819s
+real 0m3.796s
+
+\Cores: 1, x: 10000, y: 1000
+real 0m0.460s
+real 0m0.452s
+real 0m0.452s
+real 0m0.446s
+real 0m0.476s
+
+\Cores: 1, x: 10000, y: 10000
+real 0m3.788s
+real 0m3.808s
+real 0m3.771s
+real 0m3.810s
+real 0m3.774s
+
+\Cores: 1, x: 10000, y: 100000
+real 0m37.170s
+real 0m37.028s
+real 0m37.120s
+real 0m37.166s
+real 0m37.047s
+
+\Cores: 1, x: 100000, y: 1000
+real 0m3.779s
+real 0m3.773s
+real 0m3.787s
+real 0m3.772s
+real 0m3.780s
+
+\Cores: 1, x: 100000, y: 10000
+real 0m37.023s
+real 0m37.032s
+real 0m36.994s
+real 0m37.034s
+real 0m37.031s
+
+\Cores: 1, x: 100000, y: 100000
+real 6m9.783s
+real 6m10.977s
+real 6m11.008s
+real 6m10.953s
+real 6m10.292s
+
+\Cores: 2, x: 1000, y: 1000
+real 0m0.112s
+real 0m0.101s
+real 0m0.099s
+real 0m0.107s
+real 0m0.106s
+
+\Cores: 2, x: 1000, y: 10000
+real 0m0.281s
+real 0m0.272s
+real 0m0.271s
+real 0m0.273s
+real 0m0.270s
+
+\Cores: 2, x: 1000, y: 100000
+real 0m2.033s
+real 0m2.024s
+real 0m2.015s
+real 0m2.022s
+real 0m2.013s
+
+\Cores: 2, x: 10000, y: 1000
+real 0m0.283s
+real 0m0.276s
+real 0m0.271s
+real 0m0.282s
+real 0m0.278s
+
+\Cores: 2, x: 10000, y: 10000
+real 0m2.008s
+real 0m2.014s
+real 0m2.006s
+real 0m2.006s
+real 0m2.015s
+
+\Cores: 2, x: 10000, y: 100000
+real 0m19.349s
+real 0m19.326s
+real 0m19.351s
+real 0m19.347s
+real 0m19.299s
+
+\Cores: 2, x: 100000, y: 1000
+real 0m2.034s
+real 0m2.003s
+real 0m2.010s
+real 0m2.021s
+real 0m2.009s
+
+\Cores: 2, x: 100000, y: 10000
+real 0m19.339s
+real 0m19.326s
+real 0m19.264s
+real 0m19.352s
+real 0m19.284s
+
+\Cores: 2, x: 100000, y: 100000
+real 3m12.715s
+real 3m12.767s
+real 3m12.330s
+real 3m13.044s
+real 3m12.540s
+
+\Cores: 4, x: 1000, y: 1000
+real 0m0.120s
+real 0m0.105s
+real 0m0.096s
+real 0m0.099s
+real 0m0.119s
+
+\Cores: 4, x: 1000, y: 10000
+real 0m0.203s
+real 0m0.199s
+real 0m0.199s
+real 0m0.225s
+real 0m0.218s
+
+\Cores: 4, x: 1000, y: 100000
+real 0m1.117s
+real 0m1.131s
+real 0m1.067s
+real 0m1.107s
+real 0m1.078s
+
+\Cores: 4, x: 10000, y: 1000
+real 0m0.216s
+real 0m0.183s
+real 0m0.204s
+real 0m0.236s
+real 0m0.213s
+
+\Cores: 4, x: 10000, y: 10000
+real 0m1.112s
+real 0m1.101s
+real 0m1.073s
+real 0m1.072s
+real 0m1.085s
+
+\Cores: 4, x: 10000, y: 100000
+real 0m10.009s
+real 0m9.927s
+real 0m10.022s
+real 0m9.949s
+real 0m9.905s
+
+\Cores: 4, x: 100000, y: 1000
+real 0m1.162s
+real 0m1.118s
+real 0m1.084s
+real 0m1.079s
+real 0m1.076s
+
+\Cores: 4, x: 100000, y: 10000
+real 0m10.074s
+real 0m9.937s
+real 0m10.239s
+real 0m9.949s
+real 0m9.926s
+
+\Cores: 4, x: 100000, y: 100000
+real 1m38.345s
+real 1m38.253s
+real 1m38.660s
+real 1m38.438s
+real 1m38.728s
+
+\Cores: 8, x: 1000, y: 1000
+real 0m0.142s
+real 0m0.110s
+real 0m0.113s
+real 0m0.114s
+real 0m0.139s
+
+\Cores: 8, x: 1000, y: 10000
+real 0m0.190s
+real 0m0.186s
+real 0m0.170s
+real 0m0.202s
+real 0m0.204s
+
+\Cores: 8, x: 1000, y: 100000
+real 0m0.729s
+real 0m0.763s
+real 0m0.675s
+real 0m0.670s
+real 0m0.664s
+
+\Cores: 8, x: 10000, y: 1000
+real 0m0.212s
+real 0m0.166s
+real 0m0.178s
+real 0m0.196s
+real 0m0.213s
+
+\Cores: 8, x: 10000, y: 10000
+real 0m0.727s
+real 0m0.760s
+real 0m0.679s
+real 0m0.675s
+real 0m0.701s
+
+\Cores: 8, x: 10000, y: 100000
+real 0m5.796s
+real 0m5.693s
+real 0m5.709s
+real 0m5.739s
+real 0m5.689s
+
+\Cores: 8, x: 100000, y: 1000
+real 0m0.726s
+real 0m0.736s
+real 0m0.684s
+real 0m0.683s
+real 0m0.669s
+
+\Cores: 8, x: 100000, y: 10000
+real 0m5.821s
+real 0m5.772s
+real 0m5.741s
+real 0m5.693s
+real 0m5.712s
+
+\Cores: 8, x: 100000, y: 100000
+real 0m55.751s
+real 0m55.775s
+real 0m55.830s
+real 0m55.856s
+real 0m55.789s

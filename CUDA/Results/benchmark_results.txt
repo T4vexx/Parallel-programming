@@ -1,0 +1,217 @@
+Benchmark Results
+
+
+blocos: 10, x: 1000, y: 1000
+real 0m0.237s
+real 0m0.154s
+real 0m0.156s
+real 0m0.168s
+real 0m0.149s
+
+
+blocos: 10, x: 1000, y: 10000
+real 0m0.201s
+real 0m0.209s
+real 0m0.194s
+real 0m0.193s
+real 0m0.191s
+
+
+blocos: 10, x: 1000, y: 100000
+real 0m0.523s
+real 0m0.498s
+real 0m0.489s
+real 0m0.512s
+real 0m0.547s
+
+
+blocos: 10, x: 10000, y: 1000
+real 0m0.170s
+real 0m0.163s
+real 0m0.172s
+real 0m0.165s
+real 0m0.190s
+
+
+blocos: 10, x: 10000, y: 10000
+real 0m0.257s
+real 0m0.257s
+real 0m0.244s
+real 0m0.250s
+real 0m0.238s
+
+
+blocos: 10, x: 10000, y: 100000
+real 0m0.863s
+real 0m0.871s
+real 0m0.849s
+real 0m0.845s
+real 0m0.841s
+
+
+blocos: 10, x: 100000, y: 1000
+real 0m0.234s
+real 0m0.216s
+real 0m0.289s
+real 0m0.241s
+real 0m0.248s
+
+
+blocos: 10, x: 100000, y: 10000
+real 0m0.904s
+real 0m0.863s
+real 0m0.877s
+real 0m0.849s
+real 0m0.852s
+
+
+blocos: 10, x: 100000, y: 100000
+real 0m7.101s
+real 0m7.012s
+real 0m7.039s
+real 0m6.991s
+real 0m7.010s
+
+
+blocos: 100, x: 1000, y: 1000
+real 0m0.192s
+real 0m0.157s
+real 0m0.162s
+real 0m0.167s
+real 0m0.185s
+
+
+blocos: 100, x: 1000, y: 10000
+real 0m0.231s
+real 0m0.221s
+real 0m0.238s
+real 0m0.239s
+real 0m0.242s
+
+
+blocos: 100, x: 1000, y: 100000
+real 0m0.869s
+real 0m0.872s
+real 0m0.837s
+real 0m0.848s
+real 0m0.837s
+
+
+blocos: 100, x: 10000, y: 1000
+real 0m0.173s
+real 0m0.153s
+real 0m0.155s
+real 0m0.170s
+real 0m0.165s
+
+
+blocos: 100, x: 10000, y: 10000
+real 0m0.234s
+real 0m0.220s
+real 0m0.235s
+real 0m0.244s
+real 0m0.242s
+
+
+blocos: 100, x: 10000, y: 100000
+real 0m0.866s
+real 0m0.887s
+real 0m0.839s
+real 0m0.837s
+real 0m0.854s
+
+
+blocos: 100, x: 100000, y: 1000
+real 0m0.228s
+real 0m0.195s
+real 0m0.208s
+real 0m0.214s
+real 0m0.217s
+
+
+blocos: 100, x: 100000, y: 10000
+real 0m0.656s
+real 0m0.668s
+real 0m0.663s
+real 0m0.684s
+real 0m0.671s
+
+
+blocos: 100, x: 100000, y: 100000
+real 0m5.365s
+real 0m5.322s
+real 0m5.328s
+real 0m5.322s
+real 0m5.326s
+
+
+blocos: 1000, x: 1000, y: 1000
+real 0m0.178s
+real 0m0.164s
+real 0m0.172s
+real 0m0.175s
+real 0m0.172s
+
+
+blocos: 1000, x: 1000, y: 10000
+real 0m0.229s
+real 0m0.217s
+real 0m0.252s
+real 0m0.246s
+real 0m0.234s
+
+
+blocos: 1000, x: 1000, y: 100000
+real 0m0.873s
+real 0m0.879s
+real 0m0.835s
+real 0m0.845s
+real 0m0.848s
+
+
+blocos: 1000, x: 10000, y: 1000
+real 0m0.182s
+real 0m0.151s
+real 0m0.157s
+real 0m0.162s
+real 0m0.161s
+
+
+blocos: 1000, x: 10000, y: 10000
+real 0m0.221s
+real 0m0.213s
+real 0m0.231s
+real 0m0.225s
+real 0m0.231s
+
+
+blocos: 1000, x: 10000, y: 100000
+real 0m0.872s
+real 0m0.871s
+real 0m0.838s
+real 0m0.848s
+real 0m0.848s
+
+
+blocos: 1000, x: 100000, y: 1000
+real 0m0.222s
+real 0m0.198s
+real 0m0.202s
+real 0m0.203s
+real 0m0.228s
+
+
+blocos: 1000, x: 100000, y: 10000
+real 0m0.654s
+real 0m0.681s
+real 0m0.636s
+real 0m0.637s
+real 0m0.635s
+
+
+blocos: 1000, x: 100000, y: 100000
+real 0m5.057s
+real 0m4.975s
+real 0m4.984s
+real 0m4.985s
+real 0m4.987s
